@@ -9,6 +9,8 @@ public class MProcess {
 	private Pattern pattern;
 	private String previous;
 	
+	// Modified MProcess source file
+	
 	public String scrap(String line) {
 		pattern = Pattern.compile("\\\\t");
 		
